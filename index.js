@@ -1,9 +1,19 @@
-var button = document.querySelector('btn');
+var buttonEl = document.querySelector("#btn");
+var outputEl = document.querySelector("#output");
 
 
-function clickHandler(){
-    console.log("button clicked");
 
-button.addEventListener('click', clickHandler) 
+
+
+function clickHandler() {
+
+    outputEl.innerText = "vivek is awesome ";
+
+   
+   
+
+
 
 }
+
+buttonEl.addEventListener('click', clickHandler) 
